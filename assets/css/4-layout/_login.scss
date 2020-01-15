@@ -1,0 +1,91 @@
+#login{
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px;
+  @include esm{
+    padding-top: 0px;
+  }
+
+  .login-wrap{
+    margin: auto;
+    @include esm{
+      width: 90%;
+      overflow: hidden;
+    }
+    .logo{
+      min-height: 100px;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 30px;
+      img{
+        @include esm{
+          width: 100%;
+        }
+      }
+    }
+    form{
+      width: 100%;
+      background: rgba($bluedark,.25);
+      border-radius: 15px;
+      border: 1px solid $bluesecondary;
+      padding: 10px 50px 30px 50px;
+      @include esm{
+        padding: 10px 15px 30px 15px;
+      }
+      .user-icon{
+        position: relative;
+        margin: auto;
+        top: -65px;
+        width: 130px;
+        height: 130px;
+        background: $bluedark;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+        border: 1px solid $bluesecondary;
+        @include esm{
+          width: 100px;
+          height: 100px;
+          top: -60px;
+
+          img{
+            width: 50%;
+          }
+        }
+      }
+      .custom-control-label{
+        color: $white;
+
+        &:before{
+          border-color: $bluesecondary;
+          background: transparent;
+        }
+        &:after{}
+      }
+      a.btn-link{
+        text-align: right;
+        display: block;
+        color: $white;
+      }
+      button.btn{
+        padding: 15px 0px;
+        margin-top: 15px;
+      }
+      input[type="text"]{
+        background: transparent;
+        border: 1px solid $bluesecondary;
+        padding: 30px 20px;
+        border-radius: 100px;
+        color: $white;
+        &::placeholder{
+          text-align: center;
+          color: $white;
+        }
+      }
+    }
+  }
+}
