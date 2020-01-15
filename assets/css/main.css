@@ -11808,6 +11808,9 @@ html::-webkit-scrollbar-thumb {
         text-decoration: none;
         padding: 40px 50px;
         display: block; }
+        @media (min-width: 992px) and (max-width: 1365.98px) {
+          #main .main-wrap .row-main .col-modul .menu-wrap ul li a {
+            padding: 20px 35px; } }
         @media (min-width: 768px) and (max-width: 991.98px) {
           #main .main-wrap .row-main .col-modul .menu-wrap ul li a {
             padding: 20px 35px;
@@ -11875,6 +11878,9 @@ html::-webkit-scrollbar-thumb {
   background: #fff;
   border-radius: 15px;
   overflow: auto; }
+  @media (min-width: 1366px) {
+    #main .main-wrap .row-main .col-dbg-wrap .row-dbg .col-duyuru .duyuru-wrap, #main .main-wrap .row-main .col-dbg-wrap .row-dbg .col-duyuru .bildirim-wrap, #main .main-wrap .row-main .col-dbg-wrap .row-dbg .col-bildirim .duyuru-wrap, #main .main-wrap .row-main .col-dbg-wrap .row-dbg .col-bildirim .bildirim-wrap {
+      margin-bottom: 0px; } }
   @media (min-width: 768px) and (max-width: 991.98px) {
     #main .main-wrap .row-main .col-dbg-wrap .row-dbg .col-duyuru .duyuru-wrap, #main .main-wrap .row-main .col-dbg-wrap .row-dbg .col-duyuru .bildirim-wrap, #main .main-wrap .row-main .col-dbg-wrap .row-dbg .col-bildirim .duyuru-wrap, #main .main-wrap .row-main .col-dbg-wrap .row-dbg .col-bildirim .bildirim-wrap {
       margin-bottom: 30px; } }
@@ -11942,9 +11948,21 @@ html::-webkit-scrollbar-thumb {
           border-color: #ce0000;
           background: #ce0000; }
 
-@media (min-width: 992px) and (max-width: 1365.98px) {
+@media (min-width: 1366px) {
+  #main .main-wrap .row-main .col-dbg-wrap .row-dbg .col-bildirim {
+    margin-top: 00px; } }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
   #main .main-wrap .row-main .col-dbg-wrap .row-dbg .col-bildirim {
     margin-top: 30px; } }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #main .main-wrap .row-main .col-dbg-wrap .row-dbg .col-bildirim {
+    margin-top: 0px; } }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #main .main-wrap .row-main .col-dbg-wrap .row-dbg .col-bildirim {
+    margin-top: 0px; } }
 
 #main .main-wrap .row-main .col-dbg-wrap .row-dbg .col-bildirim .bildirim-wrap {
   background: #fff; }
