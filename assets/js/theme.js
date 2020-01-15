@@ -10,5 +10,6 @@ $(document).ready(function() {
         touchMove:false,
         autoplay: true,
         autoplaySpeed: 2000,
+        pauseOnHover:false,
     })
 });

@@ -29,7 +29,7 @@
     form{
       width: 100%;
       background: rgba($bluedark,.25);
-      border-radius: 15px;
+      border-radius: $border-radius-cs;
       border: 1px solid $bluesecondary;
       padding: 10px 50px 30px 50px;
       @include esm{
@@ -45,7 +45,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        border-radius: 100%;
+        border-radius: $rounded-pill;
         border: 1px solid $bluesecondary;
         @include esm{
           width: 100px;
@@ -79,7 +79,7 @@
         background: transparent;
         border: 1px solid $bluesecondary;
         padding: 30px 20px;
-        border-radius: 100px;
+        border-radius: $rounded-pill;
         color: $white;
         &::placeholder{
           text-align: center;
