@@ -1,3 +1,22 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+html::-webkit-scrollbar-track
+{
+  //-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: $dark;
+}
+
+html::-webkit-scrollbar
+{
+  width: 6px;
+  background-color: $dark;
+}
+
+html::-webkit-scrollbar-thumb
+{
+  background-color: $red;
+}
 header{
   padding-top: 40px;
   padding-bottom: 45px;
