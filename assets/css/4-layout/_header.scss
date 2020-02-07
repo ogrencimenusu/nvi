@@ -17,6 +17,16 @@ html::-webkit-scrollbar-thumb
 {
   background-color: $red;
 }
+.custom-file-label{
+  overflow: hidden;
+}
+body{
+  &.modal-open{
+    header,footer,section{
+      filter: blur(5px);
+    }
+  }
+}
 header{
   padding-top: 40px;
   padding-bottom: 45px;

@@ -1,0 +1,119 @@
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #login{
+    .login-wrap{
+      margin: 0;
+      form input[type='text']{
+        padding: 0 17px;
+      }
+    }
+  }
+  #main .main-wrap .row-main .col-modul .menu-wrap ul li {
+    flex: 0 0 49.6%;
+  }
+  #main .title {
+    justify-content: flex-start;
+  }
+  #page-3 .main-title{
+    justify-content: flex-start;
+  }
+  #page-3 .main-title{
+    display: block;
+    overflow: hidden;
+  }
+  #page-3 .main-title .right{
+    float: right;
+  }
+  #page-3 .main-title .left{
+    float: left;
+    padding-top: 20px;
+  }
+    #main .title {
+    display: block;
+    overflow: hidden;
+  }
+    #main .title .right{
+    float: right;
+  }
+    #main .title .left{
+    float: left;
+  }
+
+
+  #main .main-wrap .row-main .col-modul .menu-wrap ul li a .icon-wrap img {
+    top: 0px;
+    left: 35px;
+  }
+  #page-3 .type.row-type2 .type-wrap .items-wrap .item .boxes .box.box-contact a {
+
+    flex: 0 0 30%;
+  }
+  #page-3 .type.row-type5 .line1 .box.box1, #page-3 .type.row-type5 .line1 .box.box2 {
+    flex: 0 0 100% !important;
+
+  }
+  #page-3 .type.row-type5 .line1 .box{
+    margin-bottom: 30px;
+  }
+  #page-3 .type.row-type5 .line1 .box.box1, #page-3 .type.row-type5 .line1{
+    flex-wrap: wrap;
+  }
+  #page-3 .type.row-type8 input.say {
+    flex: 0 0 36%;
+  }
+  #page-3 .type.row-type5 .line1 .box.box3 {
+    flex: 100%;
+  }
+
+  #page-3 .type.row-type5 .line1 .box.box3 {
+    flex-direction: row;
+  }
+
+  #page-3 .type.row-type5 .line1 .box.box1 .list span, #page-3 .type.row-type5 .line1 .box.box2 .list span {
+    width: 70%;
+  }
+  #page-3 .type.row-type5 .line1 .box.box1 .list span, #page-3 .type.row-type5 .line1 .box.box2 .list span span.right {
+  }
+
+  .main-wrap .row-main .col-sol-wrap .row-proje .col-proje .proje-wrap .sol {
+    flex: 0 0 43.1%;
+
+  }
+  .main-wrap .row-main .col-sol-wrap .row-proje .col-proje .proje-wrap .sag .sag-wrap a {
+    height: 33%;
+  }
+  .main-wrap .row-main .col-sol-wrap .row-proje .col-proje .proje-wrap .sag .sag-wrap a span {
+    padding-top: 3px;
+
+  }
+  .modal#modal-yenitalep form .form-group .bootstrap-select .dropdown-toggle {
+    padding-top: 12px;
+  }
+  .modal#modal-yenitalep form .form-group .gj-datepicker .input-group-append button[type='button'] {
+    padding-right: 50px ;
+  }
+
+  .istatistik .title {
+    justify-content: flex-start;
+
+  }
+  #main .gorev-wrap .title .left {
+    padding-top: 20px;
+
+  }
+  .modal-header {
+
+    justify-content: flex-start;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+}

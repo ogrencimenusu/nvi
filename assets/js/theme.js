@@ -12,6 +12,23 @@ $(document).ready(function() {
         autoplaySpeed: 2000,
         pauseOnHover:false,
     });
-    $('.selectpicker').selectpicker();
 
+    secilidosyalar();
+    $('.row-type8 input[type=checkbox]').on('change',function(e){
+        secilidosyalar();
+    });
+    function secilidosyalar() {
+        var sayi = $('.row-type8 input[type=checkbox]:checked').length;
+        if (sayi <= 0 ){
+            $('input.say').val('Seçili Dosya Yok')
+        }else{
+            $('input.say').val('('+sayi+')' + ' Dosya Seçili')
+        }
+
+    }
+
+    if($('.selectpicker').length > 0) {
+        $('.selectpicker').selectpicker();
+    }
 });
+

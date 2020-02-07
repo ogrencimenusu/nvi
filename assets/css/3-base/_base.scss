@@ -175,6 +175,7 @@
           min-height: 840px;
           border-radius: $border-radius-cs;
           overflow: hidden;
+
           @include lg{
             min-height: unset;
             max-height: unset;
@@ -537,6 +538,208 @@
               }
 
             }
+          }
+        }
+      }
+    }
+  }
+}
+
+.modal#modal-yenitalep{
+  transition: $transition-base-cs;
+  .modal-content{
+    border-radius: $border-radius-cs;
+  }
+  .modal-body{
+    padding: 40px 40px;
+    .btn-save{
+      text-align: center;
+      background: $red;
+      color: $white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      width: 100%;
+      padding: 20px 20px;
+      img{
+        margin-right: 15px;
+      }
+    }
+  }
+  .modal-header{
+    position: relative;
+    color: #323c4a;
+    padding: 20px 40px;
+
+    &:before{
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      width: 200px;
+      height: 1px;
+      background: $red;
+    }
+    button{
+      position: absolute;
+      right: -51px;
+      background: $red;
+      top: 0;
+      opacity: 1;
+      padding: 10px 20px;
+      padding-left: 30px;
+      margin: 0;
+      box-shadow: unset;
+      text-shadow: unset;
+      z-index: -1;
+      color: #fff;
+      font-size: 30px;
+      border-radius: $border-radius-cs;
+      @include sm{
+        right: 20px;
+        padding: 10px 20px;
+        z-index: 1;
+        top: 10px;
+      }
+
+      @include esm{
+        right: 20px;
+        padding: 10px 20px;
+        z-index: 1;
+        top: 10px;
+      }
+      &:focus{
+        outline: 0;
+        box-shadow: unset;
+      }
+      &:hover{
+        opacity: .8;
+      }
+    }
+    h5{
+      img{
+        margin-right: 15px;
+      }
+    }
+  }
+  form{
+    .form-group{
+      width: 100%;
+      &.animated{
+        margin-left: -40px;
+        margin-right: -40px;
+        width: calc(100% + 80px) !important;
+        padding: 10px 40px;
+        background: #f9f9f9;
+      }
+      .custom-file{
+        display: flex;
+        align-items: center;
+        min-height: 48px;
+
+        .custom-file-label{
+          min-height: 48px;
+          display: flex;
+          align-items: center;
+          &:after{
+            content: '';
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url(../img/icon-document-edit.png);
+            background-color: transparent;
+            padding: 0px 25px;
+            border-left: 0;
+            height: 100%;
+          }
+        }
+      }
+
+      .input-group-append{
+        .form-control{
+          margin-right: 15px;
+        }
+        span{
+          background: transparent;
+          border-color: #dbe0ea;
+          color: #cad1e0;
+          cursor: pointer;
+          min-width: 50px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          &:hover{
+            background: #cad1e0 ;
+            color: $white;
+          }
+        }
+      }
+      label{
+        display: block;
+        color: #536680;
+        font-size: 15px;
+      }
+      .form-control{
+        border: 1px solid #dbe0ea;
+        min-height: 48px;
+
+      }
+      .bootstrap-select{
+        width: 100% !important;
+
+        .dropdown-toggle{
+          outline: 0 !important;
+          height: 48px;
+          background: transparent;
+          border: 1px solid #dbe0ea;
+          padding: 0px 25px;
+          padding-left: 12px;
+
+
+
+          &:focus{
+            box-shadow: unset;
+
+          }
+          &[aria-expanded="true"]{
+            border-color: $input-focus-border-color;
+            box-shadow: $input-box-shadow, $input-focus-box-shadow;
+          }
+
+          &:after{
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            content: "\f078";
+            border: 0;
+          }
+        }
+      }
+      .gj-datepicker{
+        input.datepicker{
+          border-right: 0 !important;
+        }
+        .input-group-append{
+          button[type="button"]{
+            width: unset;
+            border-left: 0 !important;
+            background: unset !important;
+            outline:  0 !important;
+            box-shadow: unset !important;
+            border-color: #dbe0ea !important;
+          }
+        }
+        i.fa-calendar{
+          &:before{
+            content: '';
+            border-left: 0;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url(../img/icon-date.png);
+            background-color: transparent;
+            width: 30px;
+            height: 20px;
+            display: block;
+
           }
         }
       }
